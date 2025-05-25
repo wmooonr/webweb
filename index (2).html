@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Project 4 - JS Practice</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Project 4 - JavaScript Skills</h1>
+    <button class="theme-toggle">Switch Theme</button>
+
+    <h2>Client Feedback (Variant 29)</h2>
+    <div class="comments">Fetching feedback... LOL</div>
+  </div>
+
+  <!-- Feedback Modal -->
+  <div class="modal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <h2>Contact Us</h2>
+      <form action="https://formspree.io/f/mvgajbkr" method="POST">
+        <label>
+          Your Name: <input type="text" name="name" required />
+        </label><br /><br />
+        <label>
+          Email Address: <input type="email" name="email" required />
+        </label><br /><br />
+        <label>
+          Phone Number: <input type="tel" name="phone" />
+        </label><br /><br />
+        <label>
+          Your Message:<br />
+          <textarea name="message" rows="4" required></textarea>
+        </label><br /><br />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    <div class="storage-info"></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
